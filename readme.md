@@ -1,7 +1,7 @@
 
 # Nest js microservices
 
-There are 2 services available: fibonacci & factorial
+There are 2 services avaliable: fibonacci & factorial
 
 
 
@@ -58,5 +58,7 @@ Go to projects directories and bootstrap
   npm i
   npm run start:dev
 ```
+
+Afteward go http://localhost:4050/swagger to see endpoints avaliable
 
 
