@@ -10,23 +10,27 @@ There are 2 services available: fibonacci & factorial
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Bohdan-Heniuk/nest-microservices-core.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd nest-microservices-core
 ```
 
 Clone here other microservices
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Bohdan-Heniuk/nest-microservices-fibonacci
 ```
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Bohdan-Heniuk/nest-microservices-gateway
+```
+
+```bash
+  git clone https://github.com/Bohdan-Heniuk/nest-microservices-factorial
 ```
 
 Run development docker-compose (rabbitMQ & nginx)
