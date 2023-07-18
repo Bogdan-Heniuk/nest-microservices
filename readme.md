@@ -1,7 +1,7 @@
 
 # Nest js microservices
 
-There are 2 services avaliable: fibonacci & factorial
+There are 3 services avaliable: gateway, fibonacci, factorial
 
 
 
@@ -10,27 +10,27 @@ There are 2 services avaliable: fibonacci & factorial
 Clone the project
 
 ```bash
-  git clone https://github.com/Bohdan-Heniuk/nest-microservices-core.git
+  git clone https://github.com/Bohdan-Heniuk/nest-microservices.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd nest-microservices-core
+  cd nest-microservices
 ```
 
 Clone here other microservices
 
 ```bash
-  git clone https://github.com/Bohdan-Heniuk/nest-microservices-fibonacci
+  git clone https://github.com/Bohdan-Heniuk/fibonacci
 ```
 
 ```bash
-  git clone https://github.com/Bohdan-Heniuk/nest-microservices-gateway
+  git clone https://github.com/Bohdan-Heniuk/gateway
 ```
 
 ```bash
-  git clone https://github.com/Bohdan-Heniuk/nest-microservices-factorial
+  git clone https://github.com/Bohdan-Heniuk/factorial
 ```
 
 Run development docker-compose (rabbitMQ & nginx)
@@ -59,6 +59,6 @@ Go to projects directories and bootstrap
   npm run start:dev
 ```
 
-Afteward go http://localhost:4050/swagger to see endpoints avaliable
+Afteward go http://localhost:3050/swagger to see endpoints avaliable
 
 
