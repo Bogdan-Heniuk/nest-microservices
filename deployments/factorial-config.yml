@@ -15,6 +15,7 @@ spec:
       containers:
         - name: factorial
           image: makarovvv/factorial
+          imagePullPolicy: Never
           ports:
             - containerPort: 7000
           env:

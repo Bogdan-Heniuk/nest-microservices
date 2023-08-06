@@ -1,0 +1,33 @@
+apiVersion: skaffold/v4beta3
+kind: Config
+manifests:
+  rawYaml:
+    - ./deployments/*
+build:
+  local:
+    push: false
+  artifacts:
+    - image: makarovvv/gateway
+      context: gateway
+      sync:
+        manual:
+          - src: dist/**/*.js
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: makarovvv/fibonacci
+      context: fibonacci
+      sync:
+        manual:
+          - src: "dist/**/*.js"
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: makarovvv/factorial
+      context: factorial
+      sync:
+        manual:
+          - src: "dist/**/*.js"
+            dest: .
+      docker:
+        dockerfile: Dockerfile

@@ -15,6 +15,7 @@ spec:
       containers:
         - name: fibonacci
           image: makarovvv/fibonacci
+          imagePullPolicy: Never
           ports:
             - containerPort: 6000
           env:
