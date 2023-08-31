@@ -62,3 +62,11 @@ Go to projects directories and bootstrap
 Afteward go http://localhost:3050/swagger to see endpoints avaliable
 
 
+## Run with k8s
+
+
+```bash
+  kubectl apply -f deployments
+```
+
+
